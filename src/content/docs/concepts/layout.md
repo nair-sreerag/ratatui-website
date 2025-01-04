@@ -203,7 +203,7 @@ let layout = Layout::default()
         Constraint::Length(10),
         Constraint::Percentage(70),
         Constraint::Min(5),
-    ]
+    ])
     .into_iter())
     .split(frame.area());
 ```
